@@ -1,0 +1,23 @@
+.t-wrapper {
+  overflow: hidden;
+}
+
+.t-wrapper-inner {
+  min-height: 100vh;
+}
+
+aside {
+  max-width: 250px;
+  width: 250px;
+  min-height: 100vh;
+  background-color: #d2d2d2;
+}
+
+main {
+  width: calc(100% - 250px);
+  header {
+    background-color: #fff;
+    max-height: 70px;
+    height: 70px;
+  }
+}
